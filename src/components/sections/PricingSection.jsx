@@ -23,7 +23,7 @@ export function PricingSection() {
       popular: false,
       description: 'Perfect for beginners or those who prefer flexibility',
       features: [
-        'Same price for manual or automatic',
+        'Manual transmission lessons',
         'Any time subject to availability',
         'Learner driving lessons',
         'Refresher lessons available',
@@ -42,7 +42,7 @@ export function PricingSection() {
       savings: 'Save £20',
       description: 'Best value with advance payment discount',
       features: [
-        'Same price for manual or automatic',
+        'Manual transmission lessons',
         'Any time subject to availability',
         'Learner driving lessons',
         'Refresher lessons available',
@@ -112,7 +112,7 @@ export function PricingSection() {
           </h2>
           
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Our simple pricing structure with no hidden fees. Same rates for manual or automatic cars, any time subject to availability.
+            Our simple pricing structure with no hidden fees. Manual transmission lessons, any time subject to availability.
           </p>
         </div>
 
@@ -120,8 +120,8 @@ export function PricingSection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           <div className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl shadow-sm">
             <Car className="w-8 h-8 text-yellow-500 mx-auto mb-4" />
-            <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Manual & Automatic</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-300">Same price for both transmission types</p>
+            <h3 className="font-semibold text-gray-900 dark:text-white mb-2">Manual Transmission</h3>
+            <p className="text-sm text-gray-600 dark:text-gray-300">Professional manual transmission training</p>
           </div>
           <div className="text-center p-6 bg-white dark:bg-gray-900 rounded-2xl shadow-sm">
             <Clock className="w-8 h-8 text-yellow-500 mx-auto mb-4" />

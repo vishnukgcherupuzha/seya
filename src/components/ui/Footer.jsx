@@ -121,7 +121,6 @@ export function Footer() {
             <div className="space-y-3">
               {[
                 { icon: Car, text: 'Manual Lessons' },
-                { icon: Car, text: 'Automatic Lessons' },
                 { icon: Shield, text: 'Refresher Lessons' },
                 { icon: Award, text: 'Test Day Package' },
                 { icon: Clock, text: 'Intensive Courses' },
