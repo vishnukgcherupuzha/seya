@@ -65,7 +65,7 @@ export function WhatsAppPopover({ phoneNumber = "447912941877" }) {
 
       {/* Popover */}
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-80 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 z-50">
+        <div className="absolute -left-40 sm:right-5 sm:left-auto mt-2 w-80 max-w-[calc(100vw-2rem)] sm:max-w-80 transform sm:translate-x-0 -translate-x-4 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700 z-50">
           {/* Header */}
           <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700">
             <div className="flex items-center space-x-3">
