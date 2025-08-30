@@ -1,12 +1,15 @@
+import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider } from './components/ThemeProvider';
 import { HomePage } from './pages/HomePage';
 import './utils/animations';
 
 function App() {
   return (
-    <ThemeProvider>
-      <HomePage />
-    </ThemeProvider>
+    <HelmetProvider>
+      <ThemeProvider>
+        <HomePage />
+      </ThemeProvider>
+    </HelmetProvider>
   );
 }
 

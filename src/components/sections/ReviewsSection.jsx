@@ -122,7 +122,7 @@ export function ReviewsSection() {
                   {review.initials}
                 </div>
                 <div>
-                  <h className="font-semibold text-gray-900 dark:text-white">{review.name}</h>
+                  <h3 className="font-semibold text-gray-900 dark:text-white">{review.name}</h3>
                   <div className="flex items-center space-x-2 text-sm text-gray-500 dark:text-gray-400">
                     <span>{review.date}</span>
                   </div>

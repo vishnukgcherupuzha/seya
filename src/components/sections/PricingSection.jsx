@@ -35,11 +35,11 @@ export function PricingSection() {
     {
       id: 'block',
       name: 'Block Payment',
-      price: '£400',
+      price: '£410',
       period: 'for 10 hours',
-      hourlyRate: '£40 per hour',
+      hourlyRate: '£41 per hour',
       popular: true,
-      savings: 'Save £20',
+      savings: 'Save 10%',
       description: 'Best value with advance payment discount',
       features: [
         'Manual transmission lessons',
@@ -48,27 +48,29 @@ export function PricingSection() {
         'Refresher lessons available',
         'Motorway lessons included',
         'Gift vouchers available',
-        '£2 per hour discount'
+        '10% discount'
       ],
-      bookingMessage: 'Hello! I would like to book the 10-hour block payment package for £400. Could you please provide more details about availability?'
+      bookingMessage: 'Hello! I would like to book the 10-hour block payment package for £410. Could you please provide more details about availability?'
     },
     {
-      id: 'test',
-      name: 'Test Day Package',
-      price: '£126',
-      period: 'test day',
-      hourlyRate: 'Complete package',
+      id: 'bigblock',
+      name: '20-Hour Package',
+      price: '£800',
+      period: 'for 20 hours',
+      hourlyRate: '£40 per hour',
       popular: false,
-      description: 'Everything you need for your driving test',
+      savings: 'Save 20%',
+      description: 'Maximum savings for committed learners',
       features: [
-        '1-1.5 hour warm-up lesson',
-        'Insurance cover included',
-        'Travel to/from test centre',
-        'Up to 3 hours total time',
-        'Instructor car for test',
-        'Subject to assessment'
+        'Manual transmission lessons',
+        'Any time subject to availability',
+        'Learner driving lessons',
+        'Refresher lessons available',
+        'Motorway lessons included',
+        'Gift vouchers available',
+        '20% discount'
       ],
-      bookingMessage: 'Hello! I would like to book the Test Day Package for £126. I need to arrange my driving test with instructor car. Could we discuss the assessment and availability?'
+      bookingMessage: 'Hello! I would like to book the 20-hour block payment package for £800. Could you please provide more details about availability?'
     }
   ];
 
@@ -222,12 +224,12 @@ export function PricingSection() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-2">Test Day Package</h4>
+              <h4 className="font-semibold mb-2">Block Payment Packages</h4>
               <ul className="space-y-2">
-                <li>• Subject to initial assessment lesson</li>
-                <li>• Minimum 4 weeks notice required</li>
-                <li>• Instructor must assess test readiness</li>
-                <li>• Assessment ensures safety and preparedness</li>
+                <li>• 10-hour package: 10% discount (£410 total)</li>
+                <li>• 20-hour package: 20% discount (£800 total)</li>
+                <li>• Payment required within 48 hours of booking</li>
+                <li>• Best value for committed learners</li>
               </ul>
             </div>
           </div>

@@ -1,14 +1,55 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="UTF-8" />
+    
+    <!-- Favicon and Icons -->
     <link rel="icon" type="image/svg+xml" href="/seyalogo.svg" />
+    <link rel="icon" type="image/png" href="/seyalogo.png" />
+    <link rel="apple-touch-icon" href="/seyalogo.png" />
+    
+    <!-- Viewport and Mobile Optimization -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="SEYA Driving School - Professional driving lessons and instruction" />
-    <title>SEYA Driving School - Professional Driving Lessons</title>
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://wa.me" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    
+    <!-- SEO Meta Tags (will be replaced by react-helmet-async) -->
+    <meta name="description" content="SEYA Driving School - Professional manual transmission driving lessons in UK. Flexible scheduling, high pass rates. Starting from £40/hour. Book your lesson today!" />
+    <meta name="keywords" content="driving lessons, driving school, manual transmission, learn to drive, driving instructor, UK driving lessons, driving test preparation" />
+    <meta name="author" content="SEYA Driving School" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SEYA Driving School" />
+    <meta property="og:locale" content="en_GB" />
+    
+    <!-- Theme and Browser Colors -->
+    <meta name="theme-color" content="#eab308" />
+    <meta name="msapplication-navbutton-color" content="#eab308" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    
+    <title>SEYA Driving School - Professional Driving Lessons in UK</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Schema.org structured data for local business (basic) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "SEYA Driving School",
+      "description": "Professional driving lessons and instruction",
+      "telephone": "+447912941877",
+      "url": "https://seya-driving-school.com"
+    }
+    </script>
   </body>
 </html>

@@ -52,7 +52,6 @@ export function HeroSection() {
               variant="primary" 
               size="lg" 
               icon={<Calendar />}
-              onBackground={true}
               className="text-lg px-8 py-4 hover:scale-105 transform transition-all duration-300 hover:shadow-xl"
             >
               Book Your First Lesson
@@ -63,7 +62,6 @@ export function HeroSection() {
               variant="outline" 
               size="lg" 
               icon={<Phone />}
-              onBackground={true}
               className="text-lg px-8 py-4 hover:scale-105 transform transition-all duration-300 hover:shadow-xl"
             >
               Call +44 7912 941877
