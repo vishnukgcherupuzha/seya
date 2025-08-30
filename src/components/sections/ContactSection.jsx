@@ -78,6 +78,7 @@ export function ContactSection() {
         subject: 'driving-lessons'
       });
     } catch (error) {
+      console.error('Failed to send email:', error);
       setFormStatus({ 
         type: 'error', 
         message: 'Failed to send message. Please try again or contact us directly.' 
