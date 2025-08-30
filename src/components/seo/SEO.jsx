@@ -107,7 +107,11 @@ const SEO = ({
       "ratingValue": "4.9",
       "bestRating": "5",
       "worstRating": "1",
-      "ratingCount": "150"
+      "ratingCount": "150",
+      "itemReviewed": {
+        "@type": "DrivingSchool",
+        "name": "SEYA Driving School"
+      }
     }
   };
 
